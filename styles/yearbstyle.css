@@ -1,0 +1,59 @@
+.yearB {
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.circle {
+	border: 1px solid white;
+    border-radius: 45px;
+    width: 26%;
+    height: 35%;
+    margin: 0;
+    font-size: 2.7em;
+    text-align: center;
+}
+.circle-3 {
+    border: 1px solid white;
+    border-radius: 45px;
+    width: 32%;
+    height: 35%;
+    margin: 0;
+    font-size: 2.7em;
+    text-align: center;
+}
+.circle-sr {
+	border: 1px solid white;
+    border-radius: 45px;
+    width: 24%;
+    height: 197%;
+    margin: 0;
+    font-size: 2.7em;
+    text-align: center;
+}
+.first-row-year-B {
+    color: white;
+	width: 100%;
+	height: 22%;
+	display: flex; 
+	flex-direction: row;
+	padding: 0 11%;
+}
+.second-row-year-B {
+    color: white;
+	width: 100%;
+	height: 15%;
+	display: flex; 
+	flex-direction: row;
+}
+.third-row-year-B {
+    color: white;
+	width: 100%;
+    margin-top: 8%;
+    height: 18%;
+    display: flex;
+    flex-direction: row;
+}
+.hypergl {
+	width: 40%;
+	height: 20%;
+}

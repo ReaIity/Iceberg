@@ -1,0 +1,44 @@
+.yearA {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+}
+.side {
+	width: 33.3%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+}
+.left-part-row {
+	width: 30%;
+	text-align: center;
+}
+.left-part-row-p {
+	margin: 32% 0 0 10%;
+	font-size: 1.2em;
+}
+.right-part-row{
+	width: 70%;
+	text-align: left;
+}
+.right-part-row-p {
+	margin-left: 6%;
+}
+.third-div {
+	width: 70%;
+	margin: 0 15% 0 15%;
+	border: 1px solid white;
+	display: flex; 
+	flex-direction: column
+}
+p {
+	margin: 0;
+}
