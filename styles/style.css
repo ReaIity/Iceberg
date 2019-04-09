@@ -1,0 +1,151 @@
+body {
+	overflow: hidden;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	font-size: 1em;
+}
+.wrapper {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	position: relative;
+}
+.slides {
+	display: flex;
+	flex-direction: column;
+	transition: 1s;
+}
+.slide {
+	position: relative;
+	display: block;
+	width: 100vw;
+	height: 100vh;
+}
+.title {
+	position: absolute;
+    z-index: 2;
+    top: 10%;
+    left: 18%;
+    font-size: 48px;
+    width: 41%;
+    height: auto;
+    color: darkblue;
+    margin: 0;
+}
+.point {
+	background: orange;
+    opacity: 0.7;
+    border: 3px solid brown;
+    position: absolute;
+    border-radius: 55px;
+    z-index: 3;
+}
+.dynamicPoint {
+	position: absolute;
+	top: 50%; 
+	left: 50%; 
+	width: 40%; 
+	z-index: 3; 
+	height: 40%; 
+	border-radius: 40px; 
+	border: 2px solid darkred; 
+	transform: translate(-50%, -50%);
+	transition: width 1s ease-in-out; 
+    -o-transition: width 1s ease-in-out; 
+    -moz-transition: width 1s ease-in-out; 
+    -webkit-transition: width 0.5s ease-in-out;
+}
+.staticPoint {
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	width: 30%; 
+	z-index: 3; 
+	height: 30%; 
+	border-radius: 40px; 
+	background: darkred; 
+	transform: translate(-50%, -50%);
+}
+.dynamicPoint:hover {
+	width: 100%;
+	height: 100%;
+}
+.dot{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: #666666;
+	cursor: pointer;
+	border-radius: 16px;
+	margin: 0 20px;
+	border: 1px solid #666666;
+}
+.dot: hover {
+    cursor: pointer;
+}
+.navigation {
+	bottom: 55%;
+	left: 48%;
+	position: absolute;
+	width: 100%;
+	transform: rotate(90deg);
+	right: 0;
+	z-index: 1;
+	cursor: pointer;
+}
+.active {
+	background: #fff;
+}
+.prev {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	right: 50%;
+	top: 0.1%;
+	transform: rotate(90deg);
+	z-index: 1;
+	cursor: pointer;
+	text-align: center;
+	font-size: 3rem;
+	color: white;
+
+}
+.next {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	right: 50%;
+	top: 31%;
+	transform: rotate(90deg);
+	z-index: 1;
+	cursor: pointer;
+	text-align: center;
+	font-size: 3rem;
+	color: white;
+}
+.statistic {
+    overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+    top: 15%;
+    width: 70%;
+    height: 70%;
+    left: 15%;
+}
+.years {
+	width: 100%;
+	height: 100%;
+
+    color: white;
+}
+.none-active-year {
+    display: none;
+}
+.slider {
+    position: absolute;
+    z-index: 3;
+    top: 86%;
+    left: 14%;
+    width: 70%;
+}
